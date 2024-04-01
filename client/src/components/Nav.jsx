@@ -19,7 +19,7 @@ const Nav = () => {
         switch (path) {
             case '/forms':
                 return 'Forms';
-            case '/home':
+            case '/':
                 return 'Home';
             // Add more cases as needed
             case '/contact':
