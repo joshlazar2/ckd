@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from '../assets/images/logo2.jpg'
 import { Link, useLocation } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
@@ -14,6 +14,21 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(true);
     const location = useLocation();
     const pathname = location.pathname;
+
+    useEffect(() => {
+        // Function to check if the window is a mobile device
+        const isMobile = window.innerWidth <= 768;
+        setIsOpen(!isMobile);
+
+        // Event listener for window resize
+        const handleResize = () => {
+            const isMobile = window.innerWidth <= 768;
+            setIsOpen(!isMobile);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const getFriendlyName = (path) => {
         switch (path) {
