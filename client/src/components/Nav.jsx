@@ -63,7 +63,7 @@ const Nav = () => {
                 </div>
                 {/* Navigation Links */}
                 <div className={`${isOpen ? 'block' : 'hidden'} flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0`}>
-                    <Link to={'/home'} className='text-ckdGreen text-xl'>
+                    <Link to={'/'} className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
                             <AiFillHome/>
                             <p>Home</p>
