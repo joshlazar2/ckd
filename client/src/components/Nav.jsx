@@ -46,6 +46,10 @@ const Nav = () => {
         }
     };
 
+    const closeMenu = () => {
+        setIsOpen(false)
+    }
+
     return (
         <div className=''>
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
@@ -64,38 +68,38 @@ const Nav = () => {
                     <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname)}</p>
                 </div>
                 {/* Navigation Links */}
-                <div className={`${isOpen ? 'block' : 'hidden'} flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0`}>
-                    <Link to={'/'} className='text-ckdGreen text-xl'>
+                <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0`}>
+                    <Link to={'/'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <AiFillHome />
                             <p>Home</p>
                         </div>
                     </Link>
-                    <Link to={'/about'} className='text-ckdGreen text-xl'>
+                    <Link to={'/about'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaUserDoctor />
                             <p>About The Practice</p>
                         </div>
                     </Link>
-                    <Link className='text-ckdGreen text-xl'>
+                    <Link className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiArchiveResearch />
                             <p>Research</p>
                         </div>
                     </Link>
-                    <Link className='text-ckdGreen text-xl'>
+                    <Link className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaBookMedical />
                             <p>Topics</p>
                         </div>
                     </Link>
-                    <Link to={'/forms'} className='text-ckdGreen text-xl'>
+                    <Link to={'/forms'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaClipboardList />
                             <p>Forms</p>
                         </div>
                     </Link>
-                    <Link to={'/contact'} className='text-ckdGreen text-xl'>
+                    <Link to={'/contact'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaPhone />
                             <p>Contact</p>
