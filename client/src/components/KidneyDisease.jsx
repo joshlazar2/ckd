@@ -22,6 +22,8 @@ const KidneyDisease = () => {
                 <br></br>
                 Cleveland Kidney Disease Associates
             </p>
+            <div className='border border-t-ckdGreen my-10'></div>
+            <h2 className='text-left md:text-center text-2xl text-ckdGreen font-bold'>5 Stages of Chronic Kidney Disease</h2>
             <div className='flex justify-center mt-10'>
                 <table className='table-auto border border-black'>
                     <thead>

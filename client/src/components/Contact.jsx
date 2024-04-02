@@ -5,13 +5,13 @@ const Contact = () => {
         <div className='p-8'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Contact</h1>
             <div className='flex flex-col space-y-4 mt-10'>
-                <div className='flex space-x-2 items-center'>
-                    <p className='text-xl text-ckdGreen'>Phone:</p>
-                    <p>(216) 896-0639</p>
+                <div className='flex flex-col space-y-2'>
+                    <p className='text-xl text-ckdGreen text-left'>Phone:</p>
+                    <p className='text-left'>(216) 896-0639</p>
                 </div>
-                <div className='flex space-x-2 items-center'>
-                    <p className='text-xl text-ckdGreen'>Fax:</p>
-                    <p>(216) 896-0663</p>
+                <div className='flex flex-col space-y-2'>
+                    <p className='text-xl text-ckdGreen text-left'>Fax:</p>
+                    <p className='text-left'>(216) 896-0663</p>
                 </div>
                 <div className='flex flex-col space-y-2 text-left'>
                     <p className='text-xl text-ckdGreen'>Address:</p>
