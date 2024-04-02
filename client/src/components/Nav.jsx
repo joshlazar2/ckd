@@ -42,6 +42,8 @@ const Nav = () => {
                 return 'Contact';
             case '/about':
                 return 'About';
+            case '/kidneyDisease':
+                return 'Kidney Disease';
             default:
                 return 'Home'; // Default case
         }
