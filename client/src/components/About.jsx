@@ -9,16 +9,16 @@ const About = () => {
                 <p className='text-left text-lg'>Welcome to our practice!  We appreciate that you have chosen us to care for your medical needs.</p>
                 <div className='flex flex-col items-center justify-center'>
                     <ul className='text-left space-y-2 text-ckdGreen'>
-                        <li className='list-disc'><p className='text-black'>Please contact your PCP before your appointment if your insurance requires a referral</p></li>
-                        <li className='list-disc'><p className='text-black'>Please bring your medication bottles or a list of your medications to your appointment</p></li>
+                        <li className='list-disc'><p className='text-black'>Please contact your PCP <b>before</b> your appointment <b>if your insurance requires a referral</b></p></li>
+                        <li className='list-disc'><p className='text-black'>Please bring your <b>medication bottles or a list of your medications</b> to your appointment</p></li>
                         <li className='list-disc'><p className='text-black'>You will be asked to give a urine specimen at your visit</p></li>
-                        <li className='list-disc'><p className='text-black'>Please bring your insurance cards and picture identification to your visit</p></li>
-                        <li className='list-disc'><p className='text-black'>Please complete and sign the enclosed forms and bring them to your visit</p></li>
-                        <li className='list-disc'><p className='text-black'>If you have a copay, your insurance company requires that you pay it at the time of your appointment.  Please bring cash or check, or credit card.</p></li>
+                        <li className='list-disc'><p className='text-black'>Please bring your <b>insurance cards and picture identification</b> to your visit</p></li>
+                        <li className='list-disc'><p className='text-black'>Please complete and sign the <b>enclosed forms</b> and <b>bring</b> them to your visit</p></li>
+                        <li className='list-disc'><p className='text-black'>If you have a <b>copay</b>, your insurance company requires that you pay it at the time of your appointment.  Please bring <b>cash or check</b>, or <b>credit card</b>.</p></li>
                     </ul>
                 </div>
             </div>
-            <p className='text-left text-lg mt-8'>If you must change your appointment date or time, kindly give us at least 24 hours notice so that we may accommodate you and other patients who need an appointment.  You may be charged for missed appointments.</p>
+            <p className='text-left text-lg mt-8'>If you must change your appointment date or time, kindly give us at least <b>24 hours notice</b> so that we may accommodate you and other patients who need an appointment.  You may be <b>charged</b> for missed appointments.</p>
             <p className='text-left text-lg mt-8'>As you have not visited with us before, we have included a review of our practice’s mission and information about Dr. Lazar.  Please call with any questions.  Again, thank you for choosing Cleveland Kidney Disease Associates!</p>
             <div className='border border-t-ckdGreen my-10'></div>
             <h2 className='text-left text-2xl text-ckdGreen font-bold'>Mission Statement</h2>
