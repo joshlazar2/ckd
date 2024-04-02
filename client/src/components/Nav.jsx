@@ -39,6 +39,8 @@ const Nav = () => {
             // Add more cases as needed
             case '/contact':
                 return 'Contact';
+            case '/about':
+                return 'About';
             default:
                 return 'Home'; // Default case
         }
@@ -65,37 +67,37 @@ const Nav = () => {
                 <div className={`${isOpen ? 'block' : 'hidden'} flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0`}>
                     <Link to={'/'} className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <AiFillHome/>
+                            <AiFillHome />
                             <p>Home</p>
                         </div>
                     </Link>
-                    <Link className='text-ckdGreen text-xl'>
+                    <Link to={'/about'} className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <FaUserDoctor/>
+                            <FaUserDoctor />
                             <p>About The Practice</p>
                         </div>
                     </Link>
                     <Link className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <GiArchiveResearch/>
+                            <GiArchiveResearch />
                             <p>Research</p>
                         </div>
                     </Link>
                     <Link className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <FaBookMedical/>
+                            <FaBookMedical />
                             <p>Topics</p>
                         </div>
                     </Link>
                     <Link to={'/forms'} className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <FaClipboardList/>
+                            <FaClipboardList />
                             <p>Forms</p>
                         </div>
                     </Link>
                     <Link to={'/contact'} className='text-ckdGreen text-xl'>
                         <div className='flex items-center space-x-2'>
-                            <FaPhone/>
+                            <FaPhone />
                             <p>Contact</p>
                         </div>
                     </Link>
