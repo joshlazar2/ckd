@@ -8,6 +8,7 @@ import { FaUserDoctor } from "react-icons/fa6";
 import { GiArchiveResearch } from "react-icons/gi";
 import { AiFillHome } from "react-icons/ai";
 import { FaBookMedical } from "react-icons/fa";
+import { GiKidneys } from "react-icons/gi";
 
 const Nav = () => {
 
@@ -87,10 +88,10 @@ const Nav = () => {
                             <p>Research</p>
                         </div>
                     </Link>
-                    <Link className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/kidneyDisease'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
-                            <FaBookMedical />
-                            <p>Topics</p>
+                            <GiKidneys />
+                            <p>Kidney Disease</p>
                         </div>
                     </Link>
                     <Link to={'/forms'} className='text-ckdGreen text-xl' onClick={closeMenu}>
