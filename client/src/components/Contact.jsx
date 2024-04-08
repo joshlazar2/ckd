@@ -43,19 +43,19 @@ const Contact = () => {
             <form className='mt-10 space-y-4'>
                 <div className='flex flex-col items-start'>
                     <label>Name:</label>
-                    <input className='border border-black rounded-lg p-2' type="text" name="name"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="name"/>
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Email Address:</label>
-                    <input className='border border-black rounded-lg p-2' type="text" name="emailAddress"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="emailAddress"/>
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Phone Number:</label>
-                    <input className='border border-black rounded-lg p-2' type="text" name="phoneNumber"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="phoneNumber"/>
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Comments/Questions?:</label>
-                    <textarea className='border border-black rounded-lg p-2' name="commentsQuestions" id="" cols="30" rows="10"></textarea>
+                    <textarea className='border border-ckdGreen rounded-lg p-2' name="commentsQuestions" id="" cols="30" rows="10"></textarea>
                 </div>
                 <button className='flex bg-ckdGreen hover:bg-ckdGreenDarker p-3 text-white rounded-2xl' type="submit">Submit</button>
             </form>

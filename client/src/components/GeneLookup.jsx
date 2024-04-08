@@ -10,8 +10,6 @@ const GeneLookup = () => {
     const changeHandler = (e) => {
         const selectedGeneName = e.target.value;
         setSelectedGene(selectedGeneName);
-
-        // Access the description directly from geneData using the selected gene name
         const description = geneData[selectedGeneName];
         setSelectedGeneDescription(description);
     }

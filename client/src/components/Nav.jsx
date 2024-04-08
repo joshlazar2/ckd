@@ -10,6 +10,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaBookMedical } from "react-icons/fa";
 import { GiKidneys } from "react-icons/gi";
 import { FaCalculator } from "react-icons/fa6";
+import { FaDna } from "react-icons/fa6";
 
 
 const Nav = () => {
@@ -92,7 +93,7 @@ const Nav = () => {
                     </Link>
                     <Link to={'/geneLookup'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
-                            <GiArchiveResearch />
+                            <FaDna />
                             <p>Gene Lookup</p>
                         </div>
                     </Link>
