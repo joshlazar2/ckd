@@ -9,6 +9,8 @@ import { GiArchiveResearch } from "react-icons/gi";
 import { AiFillHome } from "react-icons/ai";
 import { FaBookMedical } from "react-icons/fa";
 import { GiKidneys } from "react-icons/gi";
+import { FaCalculator } from "react-icons/fa6";
+
 
 const Nav = () => {
 
@@ -44,6 +46,10 @@ const Nav = () => {
                 return 'About';
             case '/kidneyDisease':
                 return 'Kidney Disease';
+            case '/riskCalculators':
+                return 'Risk Calculators';
+            case '/geneLookup':
+                return 'Gene Lookup';
             default:
                 return 'Home'; // Default case
         }
@@ -84,16 +90,22 @@ const Nav = () => {
                             <p>About The Practice</p>
                         </div>
                     </Link>
-                    <Link className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/geneLookup'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiArchiveResearch />
-                            <p>Research</p>
+                            <p>Gene Lookup</p>
                         </div>
                     </Link>
                     <Link to={'/kidneyDisease'} className='text-ckdGreen text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiKidneys />
                             <p>Kidney Disease</p>
+                        </div>
+                    </Link>
+                    <Link to={'/riskCalculators'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                        <div className='flex items-center space-x-2'>
+                            <FaCalculator />
+                            <p>Risk Calculators</p>
                         </div>
                     </Link>
                     <Link to={'/forms'} className='text-ckdGreen text-xl' onClick={closeMenu}>
