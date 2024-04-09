@@ -11,7 +11,7 @@ import GeneLookup from './components/GeneLookup';
 
 function App() {
   return (
-    <div className="App bg-white h-screen">
+    <div className="App">
       <Nav />
       <Routes>
         <Route path='/' element={<Home />}/>
