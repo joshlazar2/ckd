@@ -37,22 +37,22 @@ const Nav = () => {
     const getFriendlyName = (path) => {
         switch (path) {
             case '/forms':
-                return 'Forms';
+                return { name: 'Forms', icon: <FaClipboardList /> };
             case '/':
-                return 'Home';
+                return { name: 'Home', icon: <AiFillHome /> };
             // Add more cases as needed
             case '/contact':
-                return 'Contact';
+                return { name: 'Contact', icon: <FaPhone /> };
             case '/about':
-                return 'About';
+                return { name: 'About', icon: <FaUserDoctor /> };
             case '/kidneyDisease':
-                return 'Kidney Disease';
+                return { name: 'Kidney Disease', icon: <GiKidneys /> };
             case '/riskCalculators':
-                return 'Risk Calculators';
+                return { name: 'Risk Calculators', icon: <FaCalculator /> };
             case '/geneLookup':
-                return 'Gene Lookup';
+                return { name: 'Gene Lookup', icon: <FaDna /> };
             default:
-                return 'Home'; // Default case
+                return { name: 'Home', icon: <AiFillHome /> }; // Default case
         }
     };
 
@@ -75,7 +75,10 @@ const Nav = () => {
                     <button onClick={() => setIsOpen(!isOpen)} >
                         <IoMenu />
                     </button>
-                    <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname)}</p>
+                    <div className="flex items-center space-x-2">
+                        <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname).icon}</p>
+                        <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname).name}</p>
+                    </div>
                 </div>
                 {/* Navigation Links */}
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0`}>
