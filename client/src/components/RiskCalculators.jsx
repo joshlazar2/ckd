@@ -104,15 +104,15 @@ const RiskCalculators = () => {
                 <div className='space-y-10 text-left'>
                     <h2 className='text-left text-2xl text-ckdGreen font-bold'>Results</h2>
                     <div className='border border-t-ckdGreen my-10'></div>
-                    <h3 className='text-left text-xl text-ckdGreen font-bold'>Risk of progression to kidney failure requiring dialysis or transplantation</h3>
+                    <h3 className='text-left text-xl text-ckdGreen font-bold'>Risk of progression to kidney failure requiring dialysis or transplantation:</h3>
                     <div className='space-y-4'>
-                        <h3 className='text-left text-xl text-ckdGreen font-bold'>Over 2-Years</h3>
+                        <h3 className='text-left text-xl text-ckdGreen font-bold'>Over 2-Years:</h3>
                         {
                             twoYearRisk ? <p className='text-xl font-bold'>{twoYearRisk}%</p> : null
                         }
                     </div>
                     <div className='space-y-4'>
-                        <h3 className='text-left text-xl text-ckdGreen font-bold'>Over 5-Years</h3>
+                        <h3 className='text-left text-xl text-ckdGreen font-bold'>Over 5-Years:</h3>
                         {
                             fiveYearRisk ? <p className='text-xl font-bold'>{fiveYearRisk}%</p> : null
                         }

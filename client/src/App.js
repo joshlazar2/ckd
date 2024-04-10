@@ -8,6 +8,7 @@ import About from './components/About';
 import KidneyDisease from './components/KidneyDisease';
 import RiskCalculators from './components/RiskCalculators';
 import GeneLookup from './components/GeneLookup';
+import ResearchTrials from './components/ResearchTrials';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/forms' element={<Forms />}/>
         <Route path='/riskCalculators' element={<RiskCalculators />} />
         <Route path='/geneLookup' element={<GeneLookup />} />
+        <Route path='/researchTrials' element={<ResearchTrials />} />
       </Routes>
     </div>
   );

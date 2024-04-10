@@ -7,7 +7,6 @@ import { FaPhone } from "react-icons/fa6";
 import { FaUserDoctor } from "react-icons/fa6";
 import { GiArchiveResearch } from "react-icons/gi";
 import { AiFillHome } from "react-icons/ai";
-import { FaBookMedical } from "react-icons/fa";
 import { GiKidneys } from "react-icons/gi";
 import { FaCalculator } from "react-icons/fa6";
 import { FaDna } from "react-icons/fa6";
@@ -51,6 +50,8 @@ const Nav = () => {
                 return { name: 'Risk Calculators', icon: <FaCalculator /> };
             case '/geneLookup':
                 return { name: 'Gene Lookup', icon: <FaDna /> };
+            case '/researchTrials':
+                return { name: 'Research Trials', icon: <GiArchiveResearch /> };
             default:
                 return { name: 'Home', icon: <AiFillHome /> }; // Default case
         }
@@ -66,7 +67,10 @@ const Nav = () => {
                 <img className='w-[200px]' src={Logo} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <h2 className='text-2xl text-ckdGreen'>(216) 896-0639</h2>
-                    <Link to={'/forms'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Download Forms</button></Link>
+                    <div className='flex space-x-4'>
+                        <Link to={'/geneLookup'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Gene Lookup</button></Link>
+                        <Link to={'/researchTrials'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Research Trials</button></Link>
+                    </div>
                 </div>
             </div>
             <div className='bg-slate-100 px-8 py-2'>
@@ -98,6 +102,12 @@ const Nav = () => {
                         <div className='flex items-center space-x-2'>
                             <FaDna />
                             <p>Gene Lookup</p>
+                        </div>
+                    </Link>
+                    <Link to={'/researchTrials'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                        <div className='flex items-center space-x-2'>
+                            <GiArchiveResearch />
+                            <p>Research Trials</p>
                         </div>
                     </Link>
                     <Link to={'/kidneyDisease'} className='text-ckdGreen text-xl' onClick={closeMenu}>
