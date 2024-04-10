@@ -1,6 +1,31 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const [success, setSuccess] = useState(false)
+    const [error, setError] = useState(false)
+
+    const formRef = useRef(null);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_0lykxz4', 'template_xgg35ag', formRef.current, {
+                publicKey: '4q6XDjfdr4q7TaABY',
+            })
+            .then((res) => {
+                console.log(res)
+                setSuccess(true)
+                formRef.current.reset();
+            })
+            .catch((err) => {
+                console.log(err)
+                setError(true)
+            })
+    }
+
     return (
         <div className='p-8'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Contact</h1>
@@ -40,7 +65,7 @@ const Contact = () => {
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
             <h2 className='text-left text-2xl text-ckdGreen font-bold'>We can also be contacted using the form below:</h2>
-            <form className='mt-10 space-y-4'>
+            <form ref={formRef} onSubmit={sendEmail} className='mt-10 space-y-4'>
                 <div className='flex flex-col items-start'>
                     <label>Name:</label>
                     <input className='border border-ckdGreen rounded-lg p-2' type="text" name="name"/>
@@ -57,6 +82,12 @@ const Contact = () => {
                     <label>Comments/Questions?:</label>
                     <textarea className='border border-ckdGreen rounded-lg p-2' name="commentsQuestions" id="" cols="30" rows="10"></textarea>
                 </div>
+                {
+                    success ? <p className='text-xl text-ckdGreen text-left'>Information Sent Successfully</p> : null
+                }
+                {
+                    error ? <p className='text-xl text-red-500 text-left'>Error Occured</p> : null
+                }
                 <button className='flex bg-ckdGreen hover:bg-ckdGreenDarker p-3 text-white rounded-2xl' type="submit">Submit</button>
             </form>
         </div>
