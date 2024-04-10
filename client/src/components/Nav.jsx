@@ -73,7 +73,7 @@ const Nav = () => {
                 {/* Hamburger Icon for Small Screens */}
                 <div className="md:hidden flex items-center justify-center space-x-4 md:space-x-0">
                     <button onClick={() => setIsOpen(!isOpen)} >
-                        <IoMenu />
+                        <IoMenu className='text-3xl text-ckdGreen' />
                     </button>
                     <div className="flex items-center space-x-2">
                         <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname).icon}</p>
