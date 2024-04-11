@@ -69,6 +69,7 @@ const Nav = () => {
                     <h2 className='text-2xl text-ckdGreen'>(216) 896-0639</h2>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Gene Lookup</button></Link>
+                        <Link to={'/riskCalculators'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Risk Calculators</button></Link>
                         <Link to={'/researchTrials'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white'>Research Trials</button></Link>
                     </div>
                 </div>

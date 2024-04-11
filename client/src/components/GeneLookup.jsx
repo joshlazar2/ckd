@@ -15,6 +15,10 @@ const GeneLookup = () => {
         setSelectedGeneDescription(description);
     };
 
+    const filterOption = (option, inputValue) => {
+        return option.label.toLowerCase().startsWith(inputValue.toLowerCase());
+    };
+
     return (
         <div className='p-8'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Gene Lookup</h1>
@@ -26,6 +30,7 @@ const GeneLookup = () => {
                         placeholder="Search for a gene..."
                         isSearchable
                         className='w-[250px] md:w-[500px]'
+                        filterOption={filterOption} // Use the custom filter function
                     />
                     {selectedGeneDescription && (
                         <p className='text-lg mt-8'>{selectedGeneDescription}</p>
