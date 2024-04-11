@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+/*
+  background-image: url('http://www.clevelandkidney.com/images/bg-updated_2.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  background-color: rgba(0, 0, 0, 0.5);
+*/
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

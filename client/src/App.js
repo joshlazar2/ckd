@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Forms from './components/Forms';
 import Home from './components/Home';
@@ -11,7 +11,6 @@ import GeneLookup from './components/GeneLookup';
 import ResearchTrials from './components/ResearchTrials';
 import KFRE from './components/KFRE';
 import DRACS from './components/DRACS';
-import KFRE1 from './components/KFRE1';
 import DRACSCC from './components/DRACSCC';
 import ContrastNephropathy from './components/ContrastNephropathy';
 import ClinicalOutcomes from './components/ClinicalOutcomes';
