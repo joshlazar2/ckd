@@ -1,6 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 
 const DRACSCC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='p-4 md:p-8'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Dialysis Risk After Cardiac Surgery (Cleveland Clinic Score by Thakar)</h1>

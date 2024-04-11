@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const ContrastNephropathy = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='p-4 md:p-8'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Contrast Nephropathy Post-PCI</h1>
