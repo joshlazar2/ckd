@@ -5,7 +5,7 @@ const ResearchTrial = () => {
 
     const {topicNumber} = useParams();
 
-    const pdf = `https://www.clevelandkidney.com/Research/Topic${topicNumber}.pdf`
+    const pdf = `http://www.clevelandkidney.com/Research/Topic${topicNumber}.pdf`
 
     return (
         <div className='p-8'>
