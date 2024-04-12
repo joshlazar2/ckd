@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import pdf2 from '../assets/Research/Topic1/topic1.pdf';
 
 const ResearchTrial = () => {
 
     const {topicNumber} = useParams();
 
-    const pdf = `http://www.clevelandkidney.com/Research/Topic${topicNumber}.pdf`
+    const pdf = `https://www.clevelandkidney.com/Research/Topic${topicNumber}.pdf`
 
     return (
         <div className='p-8'>
