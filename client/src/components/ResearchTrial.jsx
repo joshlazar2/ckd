@@ -18,7 +18,7 @@ const ResearchTrial = () => {
                     scrolling='yes'
                     src={path}
                 ></iframe> */}
-                <embed className='w-[95%] md:w-[90%] h-[600px] md:h-[800px]' src={path} />
+                <embed className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]' src={path} />
             </div>
         </div>
     );
