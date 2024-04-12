@@ -53,6 +53,8 @@ const Nav = () => {
                 return { name: 'About', icon: <FaUserDoctor /> };
             case '/kidneyDisease':
                 return { name: 'Kidney Disease', icon: <GiKidneys /> };
+            case '/riskCalculators':
+                return { name: 'Risk Calculators', icon: <FaCalculator /> };
             case '/geneLookup':
                 return { name: 'Gene Lookup', icon: <FaDna /> };
             case '/researchTrials':
