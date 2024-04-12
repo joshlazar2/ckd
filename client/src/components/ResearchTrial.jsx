@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 const ResearchTrial = () => {
 
-    const {topicNumber} = useParams();
+    const { topicNumber } = useParams();
 
     const path = `/assets/Research/Topic${topicNumber}.pdf`
 
@@ -14,7 +14,7 @@ const ResearchTrial = () => {
             <div className='flex justify-center'>
                 <iframe
                     title={`Topic${topicNumber}`}
-                    className='w-full md:w-[90%] h-[600px] md:h-[800px]'
+                    className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]'
                     scrolling='yes'
                     src={path}
                 ></iframe>
