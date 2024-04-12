@@ -35,6 +35,12 @@ const Nav = () => {
     }, []);
 
     const getFriendlyName = (path) => {
+
+        const riskCalculatorRegex = /^\/riskCalculators\//;
+        if (riskCalculatorRegex.test(path)) {
+            return { name: 'Risk Calculators', icon: <FaCalculator /> };
+        }
+
         switch (path) {
             case '/forms':
                 return { name: 'Forms', icon: <FaClipboardList /> };
@@ -47,8 +53,6 @@ const Nav = () => {
                 return { name: 'About', icon: <FaUserDoctor /> };
             case '/kidneyDisease':
                 return { name: 'Kidney Disease', icon: <GiKidneys /> };
-            case '/riskCalculators':
-                return { name: 'Risk Calculators', icon: <FaCalculator /> };
             case '/geneLookup':
                 return { name: 'Gene Lookup', icon: <FaDna /> };
             case '/researchTrials':
