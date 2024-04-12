@@ -16,6 +16,7 @@ import ContrastNephropathy from './components/ContrastNephropathy';
 import ClinicalOutcomes from './components/ClinicalOutcomes';
 import Apache from './components/Apache';
 import AkiRisk from './components/AkiRisk';
+import ResearchTrial from './components/ResearchTrial';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path='/riskCalculators/ClinicalOutcomesInCkdWithSeverelyDecreasedGFR' element={<ClinicalOutcomes />}/>
         <Route path='/riskCalculators/Apache' element={<Apache />}/>
         <Route path='/riskCalculators/AkiRiskAfterSurgery' element={<AkiRisk />}/>
+        <Route path='researchTrial/:topicNumber' element={<ResearchTrial />}/>
       </Routes>
     </div>
   );
