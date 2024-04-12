@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TbPointFilled } from "react-icons/tb";
+
 
 const About = () => {
     return (

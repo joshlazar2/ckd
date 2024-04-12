@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../assets/images/logo2.jpg'
 import { Link, useLocation } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
 import { FaClipboardList } from "react-icons/fa";
@@ -13,6 +12,8 @@ import { FaDna } from "react-icons/fa6";
 
 
 const Nav = () => {
+
+    const logoPath = '/assets/images/logo.jpg'
 
     const [isOpen, setIsOpen] = useState(true);
     const location = useLocation();
@@ -64,7 +65,7 @@ const Nav = () => {
     return (
         <div className=''>
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
-                <img className='w-[200px]' src={Logo} alt="Logo" />
+                <img className='w-[200px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <h2 className='text-2xl text-ckdGreen'>(216) 896-0639</h2>
                     <div className='flex space-x-4'>
