@@ -12,7 +12,12 @@ const ResearchTrial = () => {
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Topic {topicNumber}</h1>
             <div className='border border-t-ckdGreen my-10'></div>
             <div className='flex justify-center'>
-                <iframe title={`Topic${topicNumber}`} className='w-[90%] h-[600px] p-10 md:p-0 md:h-[800px]' scrolling='yes' src={path} ></iframe>
+                <iframe
+                    title={`Topic${topicNumber}`}
+                    className='w-full md:w-[90%] h-[600px] md:h-[800px]'
+                    scrolling='yes'
+                    src={path}
+                ></iframe>
             </div>
         </div>
     );
