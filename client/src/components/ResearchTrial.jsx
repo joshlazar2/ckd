@@ -15,7 +15,7 @@ const ResearchTrial = () => {
                 <iframe
                     title={`Topic${topicNumber}`}
                     className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]'
-                    scrolling='yes'
+                    scrolling='no'
                     src={path}
                 ></iframe>
             </div>
