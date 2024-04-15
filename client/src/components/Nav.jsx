@@ -69,7 +69,7 @@ const Nav = () => {
     }
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50">
+        <div>
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8 bg-white'>
                 <img className='w-[200px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
