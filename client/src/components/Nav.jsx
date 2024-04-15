@@ -59,6 +59,8 @@ const Nav = () => {
                 return { name: 'Gene Lookup', icon: <FaDna /> };
             case '/researchTrials':
                 return { name: 'Research Trials', icon: <GiArchiveResearch /> };
+            case '/researchTrial':
+                return { name: 'Research Trials', icon: <GiArchiveResearch /> };
             default:
                 return { name: 'Home', icon: <AiFillHome /> }; // Default case
         }
