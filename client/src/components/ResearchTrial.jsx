@@ -14,7 +14,7 @@ const ResearchTrial = () => {
             <div className='flex justify-center'>
                 <iframe
                     title={`Topic${topicNumber}`}
-                    className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]'
+                    className='w-[100%] h-[800px]'
                     scrolling='yes'
                     src={path}
                     frameBorder='0'
