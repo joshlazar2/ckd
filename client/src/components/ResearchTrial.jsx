@@ -17,6 +17,7 @@ const ResearchTrial = () => {
                     className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]'
                     scrolling='yes'
                     src={path}
+                    frameBorder='0'
                 ></iframe>
             </div>
         </div>
