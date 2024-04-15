@@ -5,7 +5,8 @@ const ResearchTrial = () => {
 
     const { topicNumber } = useParams();
 
-    const path = `/assets/Research/Topic${topicNumber}.pdf?embed=1`
+    const path = `/assets/Research/Topic${topicNumber}.pdf`
+    const path2 = 'https://drive.google.com/file/d/1pgc-EorpMfbXKThWqQdqDAT9UBL_jDLX/preview'
 
     return (
         <div className='p-8'>
@@ -16,7 +17,7 @@ const ResearchTrial = () => {
                     title={`Topic${topicNumber}`}
                     className='w-[100%] h-[800px]'
                     scrolling='yes'
-                    src={path}
+                    src={path2}
                     frameBorder='0'
                 ></iframe>
             </div>
