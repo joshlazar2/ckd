@@ -18,7 +18,7 @@ const ResearchTrial = () => {
                     scrolling='yes'
                     src={path}
                 ></iframe> */}
-                <object className='w-[100%] md:w-[90%] h-[600px] md:h-[800px]' data={path} type="application/pdf"></object>
+                <img src={path} alt="" />
             </div>
         </div>
     );
