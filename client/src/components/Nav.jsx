@@ -41,6 +41,11 @@ const Nav = () => {
             return { name: 'Risk Calculators', icon: <FaCalculator /> };
         }
 
+        const researchTrialRegex = /^\/researchTrial\//;
+        if (researchTrialRegex.test(path)) {
+            return { name: 'Research Trials', icon: <GiArchiveResearch /> };
+        }
+
         switch (path) {
             case '/forms':
                 return { name: 'Forms', icon: <FaClipboardList /> };
@@ -58,8 +63,6 @@ const Nav = () => {
             case '/geneLookup':
                 return { name: 'Gene Lookup', icon: <FaDna /> };
             case '/researchTrials':
-                return { name: 'Research Trials', icon: <GiArchiveResearch /> };
-            case '/researchTrial':
                 return { name: 'Research Trials', icon: <GiArchiveResearch /> };
             default:
                 return { name: 'Home', icon: <AiFillHome /> }; // Default case
