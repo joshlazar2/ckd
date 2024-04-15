@@ -5,7 +5,7 @@ const ResearchTrial = () => {
 
     const { topicNumber } = useParams();
 
-    const path = `/assets/Research/Topic${topicNumber}.pdf`
+    const path = `/assets/Research/Topic${topicNumber}.pdf?embed=1`
 
     return (
         <div className='p-8'>
