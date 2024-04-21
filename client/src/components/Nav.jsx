@@ -54,8 +54,6 @@ const Nav = () => {
             // Add more cases as needed
             case '/contact':
                 return { name: 'Contact', icon: <FaPhone /> };
-            case '/about':
-                return { name: 'About', icon: <FaUserDoctor /> };
             case '/kidneyDisease':
                 return { name: 'Kidney Disease', icon: <GiKidneys /> };
             case '/riskCalculators':
@@ -103,12 +101,6 @@ const Nav = () => {
                         <div className='flex items-center space-x-2'>
                             <AiFillHome />
                             <p>Home</p>
-                        </div>
-                    </Link>
-                    <Link to={'/about'} className='text-ckdGreen text-xl' onClick={closeMenu}>
-                        <div className='flex items-center space-x-2'>
-                            <FaUserDoctor />
-                            <p>About The Practice</p>
                         </div>
                     </Link>
                     <Link to={'/geneLookup'} className='text-ckdGreen text-xl' onClick={closeMenu}>
