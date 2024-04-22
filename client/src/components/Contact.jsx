@@ -32,7 +32,7 @@ const Contact = () => {
             <div className='flex flex-col space-y-4 mt-10'>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-xl text-ckdGreen text-left'>Phone:</p>
-                    <p className='text-left'>(216) 896-0639</p>
+                    <a href="tel:+12168960639"><p className='text-left'>(216) 896-0639</p></a>
                 </div>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-xl text-ckdGreen text-left'>Fax:</p>
@@ -40,7 +40,14 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col space-y-2 text-left'>
                     <p className='text-xl text-ckdGreen'>Address:</p>
-                    <p>3619 PARK EAST DR SUITE 318 SOUTH BEACHWOOD, OH 44122-4330 US</p>
+                    <a
+                        href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+318+SOUTH+BEACHWOOD,+OH+44122-4330+US'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='hover:text-ckdGreen'
+                    >
+                        <p>3619 PARK EAST DR SUITE 318 SOUTH BEACHWOOD, OH 44122-4330 US</p>
+                    </a>
                 </div>
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
@@ -68,15 +75,15 @@ const Contact = () => {
             <form ref={formRef} onSubmit={sendEmail} className='mt-10 space-y-4'>
                 <div className='flex flex-col items-start'>
                     <label>Name:</label>
-                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="name"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="name" />
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Email Address:</label>
-                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="emailAddress"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="emailAddress" />
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Phone Number:</label>
-                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="phoneNumber"/>
+                    <input className='border border-ckdGreen rounded-lg p-2' type="text" name="phoneNumber" />
                 </div>
                 <div className='flex flex-col items-start'>
                     <label>Comments/Questions?:</label>
