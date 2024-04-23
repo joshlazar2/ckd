@@ -6,9 +6,9 @@ const RiskCalculators = () => {
 
     return (
         <div className='p-8'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>Risk Calculators</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Risk Calculators</h1>
             <div className='border border-t-ckdGreen my-10'></div>
-            <div className='text-left space-y-16'>
+            <div className='text-center md:text-left space-y-16'>
                 <div>
                     <Link to={'/riskCalculators/KidneyFailureRiskEquation'}><p className='text-2xl text-ckdGreen'>Kidney Failure Risk Equation <br /> (4 variable)</p></Link>
                 </div>

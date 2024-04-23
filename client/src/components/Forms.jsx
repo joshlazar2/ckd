@@ -19,7 +19,7 @@ const Forms = () => {
 
     return(
         <div className='p-8'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>Patient Forms</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Patient Forms</h1>
             <div className='flex flex-col mt-10'>
                 <div className='text-left space-y-2'>
                     <div className='flex items-center space-x-4'>
@@ -29,7 +29,7 @@ const Forms = () => {
                     <p className='font-bold'>This includes Welcome Letter, Patient Info, Medical History, Hippa Supplement, and Record Release forms.</p>
                 </div>
                 <div className='border border-t-ckdGreen my-10'></div>
-                <h2 className='text-ckdGreen text-3xl font-bold text-left'>Individual Forms</h2>
+                <h2 className='text-ckdGreen text-3xl font-bold text-center md:text-left'>Individual Forms</h2>
                 <div className='text-left space-y-4 mt-10'>
                     <div className='flex items-center space-x-4'>
                         <a className='text-2xl text-ckdGreen' href={welcomeLetter} target='_blank' rel="noreferrer">Welcome Letter</a>

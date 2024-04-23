@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 const ResearchTrials = () => {
     return(
         <div className='p-8 md:px-20'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>Research Trials</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Research Trials</h1>
             <div className='border border-t-ckdGreen my-10'></div>
-            <div className='text-left space-y-9'>
+            <div className='text-center md:text-left space-y-9'>
                 <div>
                     <Link to={'/researchTrial/IgA-Nephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
                 </div>

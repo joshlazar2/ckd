@@ -21,9 +21,9 @@ const GeneLookup = () => {
 
     return (
         <div className='p-8'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>Gene Lookup</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Gene Lookup</h1>
             <div className='mt-8 space-y-4'>
-                <div className='text-left'>
+                <div className='flex flex-col items-center text-left md:items-start md:text-left'>
                     <Select
                         options={geneOptions}
                         onChange={handleSelect}

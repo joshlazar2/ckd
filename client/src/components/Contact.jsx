@@ -28,7 +28,7 @@ const Contact = () => {
 
     return (
         <div className='p-8'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>Contact</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Contact</h1>
             <div className='flex flex-col space-y-4 mt-10'>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-xl text-ckdGreen text-left'>Phone:</p>
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
-            <h2 className='text-left text-2xl text-ckdGreen font-bold'>Directions</h2>
+            <h2 className='text-center md:text-left text-2xl text-ckdGreen font-bold'>Directions</h2>
             <div className='flex flex-col space-y-4 mt-10'>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-left text-xl text-ckdGreen'>From The South:</p>
@@ -71,7 +71,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
-            <h2 className='text-left text-2xl text-ckdGreen font-bold'>We can also be contacted using the form below:</h2>
+            <h2 className='text-center md:text-left text-2xl text-ckdGreen font-bold'>We can also be contacted using the form below:</h2>
             <form ref={formRef} onSubmit={sendEmail} className='mt-10 space-y-4'>
                 <div className='flex flex-col items-start'>
                     <label>Name:</label>
