@@ -21,24 +21,27 @@ function App() {
   return (
     <div className="App bg-slate-100 min-h-screen">
       <Nav />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/kidneyDisease' element={<KidneyDisease />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/forms' element={<Forms />} />
-        <Route path='/riskCalculators' element={<RiskCalculators />} />
-        <Route path='/geneLookup' element={<GeneLookup />} />
-        <Route path='/researchTrials' element={<ResearchTrials />} />
-        {/* <Route path='/riskCalculators/KFRE1' element={<KFRE1 />} /> */}
-        <Route path='/riskCalculators/KidneyFailureRiskEquation' element={<KFRE />} />
-        <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryMehta' element={<DRACS />} />
-        <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryClevelandClinic' element={<DRACSCC />} />
-        <Route path='/riskCalculators/ContrastNephropathyPost-PCI' element={<ContrastNephropathy />} />
-        <Route path='/riskCalculators/ClinicalOutcomesInCkdWithSeverelyDecreasedGFR' element={<ClinicalOutcomes />} />
-        <Route path='/riskCalculators/Apache' element={<Apache />} />
-        <Route path='/riskCalculators/AkiRiskAfterSurgery' element={<AkiRisk />} />
-        <Route path='researchTrial/:trialName' element={<ResearchTrial />} />
-      </Routes>
+      <div className='md:px-20'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/kidneyDisease' element={<KidneyDisease />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/forms' element={<Forms />} />
+          <Route path='/riskCalculators' element={<RiskCalculators />} />
+          <Route path='/geneLookup' element={<GeneLookup />} />
+          <Route path='/researchTrials' element={<ResearchTrials />} />
+          {/* <Route path='/riskCalculators/KFRE1' element={<KFRE1 />} /> */}
+          <Route path='/riskCalculators/KidneyFailureRiskEquation' element={<KFRE />} />
+          <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryMehta' element={<DRACS />} />
+          <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryClevelandClinic' element={<DRACSCC />} />
+          <Route path='/riskCalculators/ContrastNephropathyPost-PCI' element={<ContrastNephropathy />} />
+          <Route path='/riskCalculators/ClinicalOutcomesInCkdWithSeverelyDecreasedGFR' element={<ClinicalOutcomes />} />
+          <Route path='/riskCalculators/Apache' element={<Apache />} />
+          <Route path='/riskCalculators/AkiRiskAfterSurgery' element={<AkiRisk />} />
+          <Route path='researchTrial/:trialName' element={<ResearchTrial />} />
+        </Routes>
+      </div>
+
     </div>
   );
 }
