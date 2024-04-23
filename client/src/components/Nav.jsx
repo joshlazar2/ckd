@@ -74,7 +74,7 @@ const Nav = () => {
     return (
         <div>
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8 bg-white'>
-                <img className='w-[200px]' src={logoPath} alt="Logo" />
+                <img className='w-[250px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>

@@ -22,6 +22,14 @@ const ResearchTrials = () => {
                 <div>
                     <Link to={'/researchTrial/5'}><p className='text-2xl text-ckdGreen'>Topic 5</p></Link>
                 </div>
+                <p>IgA Nephropathy</p>
+                <p>Lupus Nephritis</p>
+                <p>Hypertension</p>
+                <p>Genetics</p>
+                <p>Dialysis</p>
+                <p>Chronic Kidney Disease</p>
+                <p>ANCA Vasculitis</p>
+
             </div>
         </div>
     );
