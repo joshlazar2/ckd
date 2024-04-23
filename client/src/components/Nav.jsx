@@ -13,7 +13,7 @@ import { FaDna } from "react-icons/fa6";
 
 const Nav = () => {
 
-    const logoPath = '/assets/images/logo.jpg'
+    const logoPath = '/assets/images/logo.png'
 
     const [isOpen, setIsOpen] = useState(true);
     const location = useLocation();
@@ -72,9 +72,9 @@ const Nav = () => {
     }
 
     return (
-        <div>
-            <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8 bg-white'>
-                <img className='w-[250px]' src={logoPath} alt="Logo" />
+        <div className=''>
+            <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
+                <img className='w-[200px] md:w-[250px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
@@ -84,7 +84,7 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-slate-100 px-8 py-2'>
+            <div className='bg-slate-200 px-8 py-2'>
                 {/* Hamburger Icon for Small Screens */}
                 <div className="md:hidden flex items-center justify-center space-x-4 md:space-x-0">
                     <button onClick={() => setIsOpen(!isOpen)} >

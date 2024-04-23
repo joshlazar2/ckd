@@ -19,7 +19,7 @@ import ResearchTrial from './components/ResearchTrial';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-100 min-h-screen">
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -37,7 +37,7 @@ function App() {
         <Route path='/riskCalculators/ClinicalOutcomesInCkdWithSeverelyDecreasedGFR' element={<ClinicalOutcomes />} />
         <Route path='/riskCalculators/Apache' element={<Apache />} />
         <Route path='/riskCalculators/AkiRiskAfterSurgery' element={<AkiRisk />} />
-        <Route path='researchTrial/:topicNumber' element={<ResearchTrial />} />
+        <Route path='researchTrial/:trialName' element={<ResearchTrial />} />
       </Routes>
     </div>
   );

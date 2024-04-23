@@ -3,33 +3,31 @@ import {Link} from 'react-router-dom';
 
 const ResearchTrials = () => {
     return(
-        <div className='p-8'>
+        <div className='p-8 px-20'>
             <h1 className='text-left text-3xl text-ckdGreen font-bold'>Research Trials</h1>
             <div className='border border-t-ckdGreen my-10'></div>
             <div className='text-left space-y-9'>
                 <div>
-                    <Link to={'/researchTrial/1'}><p className='text-2xl text-ckdGreen'>Topic 1</p></Link>
+                    <Link to={'/researchTrial/IgANephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/2'}><p className='text-2xl text-ckdGreen'>Topic 2</p></Link>
+                    <Link to={'/researchTrial/LupusNephritis'}><p className='text-2xl text-ckdGreen'>Lupus Nephritis</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/3'}><p className='text-2xl text-ckdGreen'>Topic 3</p></Link>
+                    <Link to={'/researchTrial/Hypertension'}><p className='text-2xl text-ckdGreen'>Hypertension</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/4'}><p className='text-2xl text-ckdGreen'>Topic 4</p></Link>
+                    <Link to={'/researchTrial/Genetics'}><p className='text-2xl text-ckdGreen'>Genetics</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/5'}><p className='text-2xl text-ckdGreen'>Topic 5</p></Link>
+                    <Link to={'/researchTrial/Dialysis'}><p className='text-2xl text-ckdGreen'>Dialysis</p></Link>
                 </div>
-                <p>IgA Nephropathy</p>
-                <p>Lupus Nephritis</p>
-                <p>Hypertension</p>
-                <p>Genetics</p>
-                <p>Dialysis</p>
-                <p>Chronic Kidney Disease</p>
-                <p>ANCA Vasculitis</p>
-
+                <div>
+                    <Link to={'/researchTrial/ChronicKidneyDisease'}><p className='text-2xl text-ckdGreen'>Chronic Kidney Disease</p></Link>
+                </div>
+                <div>
+                    <Link to={'/researchTrial/ANCAVasculitis'}><p className='text-2xl text-ckdGreen'>ANCA Vasculitis</p></Link>
+                </div>
             </div>
         </div>
     );
