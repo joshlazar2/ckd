@@ -51,7 +51,8 @@ const Nav = () => {
                 return { name: 'Forms', icon: <FaClipboardList /> };
             case '/':
                 return { name: 'Home', icon: <AiFillHome /> };
-            // Add more cases as needed
+            case '/about':
+                return { name: 'About', icon: <FaUserDoctor /> };
             case '/contact':
                 return { name: 'Contact', icon: <FaPhone /> };
             case '/kidneyDisease':
@@ -101,6 +102,12 @@ const Nav = () => {
                         <div className='flex items-center space-x-2'>
                             <AiFillHome />
                             <p>Home</p>
+                        </div>
+                    </Link>
+                    <Link to={'/about'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                        <div className='flex items-center space-x-2'>
+                            <FaUserDoctor />
+                            <p>About The Practice</p>
                         </div>
                     </Link>
                     <Link to={'/geneLookup'} className='text-ckdGreen text-xl' onClick={closeMenu}>
