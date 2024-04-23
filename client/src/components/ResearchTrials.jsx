@@ -8,10 +8,10 @@ const ResearchTrials = () => {
             <div className='border border-t-ckdGreen my-10'></div>
             <div className='text-left space-y-9'>
                 <div>
-                    <Link to={'/researchTrial/IgANephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
+                    <Link to={'/researchTrial/IgA-Nephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/LupusNephritis'}><p className='text-2xl text-ckdGreen'>Lupus Nephritis</p></Link>
+                    <Link to={'/researchTrial/Lupus-Nephritis'}><p className='text-2xl text-ckdGreen'>Lupus Nephritis</p></Link>
                 </div>
                 <div>
                     <Link to={'/researchTrial/Hypertension'}><p className='text-2xl text-ckdGreen'>Hypertension</p></Link>
@@ -23,10 +23,10 @@ const ResearchTrials = () => {
                     <Link to={'/researchTrial/Dialysis'}><p className='text-2xl text-ckdGreen'>Dialysis</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/ChronicKidneyDisease'}><p className='text-2xl text-ckdGreen'>Chronic Kidney Disease</p></Link>
+                    <Link to={'/researchTrial/Chronic-Kidney-Disease'}><p className='text-2xl text-ckdGreen'>Chronic Kidney Disease</p></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/ANCAVasculitis'}><p className='text-2xl text-ckdGreen'>ANCA Vasculitis</p></Link>
+                    <Link to={'/researchTrial/ANCA-Vasculitis'}><p className='text-2xl text-ckdGreen'>ANCA Vasculitis</p></Link>
                 </div>
             </div>
         </div>

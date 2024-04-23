@@ -5,10 +5,11 @@ import { trials } from '../assets/data/trialData';
 const ResearchTrial = () => {
 
     const { trialName } = useParams();
+    const formattedTrialName = trialName.replace(/-/g, ' ');
 
     return (
         <div className='p-8'>
-            <h1 className='text-left text-3xl text-ckdGreen font-bold'>{trialName}</h1>
+            <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>{formattedTrialName}</h1>
             <div className='border border-t-ckdGreen my-10'></div>
             <div className='flex justify-center'>
                 <iframe

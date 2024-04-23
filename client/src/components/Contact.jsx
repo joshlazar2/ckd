@@ -32,7 +32,7 @@ const Contact = () => {
             <div className='flex flex-col space-y-4 mt-10'>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-xl text-ckdGreen text-left'>Phone:</p>
-                    <a href="tel:+12168960639"><p className='text-left'>(216) 896-0639</p></a>
+                    <a href="tel:+12168960639"><p className='text-left hover:text-ckdGreen'>(216) 896-0639</p></a>
                 </div>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-xl text-ckdGreen text-left'>Fax:</p>
@@ -41,12 +41,12 @@ const Contact = () => {
                 <div className='flex flex-col space-y-2 text-left'>
                     <p className='text-xl text-ckdGreen'>Address:</p>
                     <a
-                        href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+318+SOUTH+BEACHWOOD,+OH+44122-4330+US'
+                        href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+110+SOUTH+BEACHWOOD,+OH+44122-4330+US'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='hover:text-ckdGreen'
                     >
-                        <p>3619 PARK EAST DR SUITE 318 SOUTH BEACHWOOD, OH 44122-4330 US</p>
+                        <p>3619 PARK EAST DR SUITE 110 SOUTH BEACHWOOD, OH 44122-4330 US</p>
                     </a>
                 </div>
             </div>
