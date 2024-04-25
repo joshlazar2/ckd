@@ -9,11 +9,11 @@ const ResearchTrials = () => {
                 <p className='text-left text-2xl text-ckdGreen font-bold'>Clinical Trials Contact</p>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-left text-xl text-ckdGreen font-bold'>Phone Number:</p>
-                    <a href="tel:+12168960639"><p className='text-left text-lg'>216-844-5396</p></a>
+                    <a href="tel:+12168960639"><p className='text-left text-lg hover:text-ckdGreen'>216-844-5396</p></a>
                 </div>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-left text-xl text-ckdGreen font-bold'>Email:</p>
-                    <a  className='text-left text-md  md:text-lg' href='mailto:NephrologyHTNResearch@uhhospitals.org' target='_blank' rel='noopener noreferrer'>NephrologyHTNResearch@uhhospitals.org</a>
+                    <a  className='text-left text-md  md:text-lg hover:text-ckdGreen' href='mailto:NephrologyHTNResearch@uhhospitals.org' target='_blank' rel='noopener noreferrer'>NephrologyHTNResearch@uhhospitals.org</a>
                 </div>
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
