@@ -9,14 +9,8 @@ import KidneyDisease from './components/KidneyDisease';
 import RiskCalculators from './components/RiskCalculators';
 import GeneLookup from './components/GeneLookup';
 import ResearchTrials from './components/ResearchTrials';
-import KFRE from './components/KFRE';
-import DRACS from './components/DRACS';
-import DRACSCC from './components/DRACSCC';
-import ContrastNephropathy from './components/ContrastNephropathy';
-import ClinicalOutcomes from './components/ClinicalOutcomes';
-import Apache from './components/Apache';
-import AkiRisk from './components/AkiRisk';
 import ResearchTrial from './components/ResearchTrial';
+import RiskCalculator from './components/RiskCalculator';
 
 function App() {
   return (
@@ -33,13 +27,7 @@ function App() {
           <Route path='/geneLookup' element={<GeneLookup />} />
           <Route path='/researchTrials' element={<ResearchTrials />} />
           {/* <Route path='/riskCalculators/KFRE1' element={<KFRE1 />} /> */}
-          <Route path='/riskCalculators/KidneyFailureRiskEquation' element={<KFRE />} />
-          <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryMehta' element={<DRACS />} />
-          <Route path='/riskCalculators/DialysisRiskAfterCardiacSurgeryClevelandClinic' element={<DRACSCC />} />
-          <Route path='/riskCalculators/ContrastNephropathyPost-PCI' element={<ContrastNephropathy />} />
-          <Route path='/riskCalculators/ClinicalOutcomesInCkdWithSeverelyDecreasedGFR' element={<ClinicalOutcomes />} />
-          <Route path='/riskCalculators/Apache' element={<Apache />} />
-          <Route path='/riskCalculators/AkiRiskAfterSurgery' element={<AkiRisk />} />
+          <Route path='/riskCalculators/:calculatorName' element={<RiskCalculator />} />
           <Route path='researchTrial/:trialName' element={<ResearchTrial />} />
         </Routes>
       </div>

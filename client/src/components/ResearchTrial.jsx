@@ -1,8 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { trials } from '../assets/data/trialData';
 
 const ResearchTrial = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const { trialName } = useParams();
     const formattedTrialName = trialName.replace(/-/g, ' ');

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
             <h2 className='text-center md:text-left text-2xl text-ckdGreen font-bold'>Mission Statement</h2>
             <p className='text-left text-lg mt-8'>Cleveland Kidney Disease Associates is devoted to delivering the highest level of nephrology care with compassion, respect, patient education, state-of-the-art practice, and the most recent medical developments.  Using the latest in research, technology, and treatment options, we strive to educate the public about chronic kidney disease, and to create individualized life plans for our patients, with the uncompromising goal of providing them with the highest quality of life.  By participating in medical research activities, we bridge the gap between academic medicine and community nephrology.</p>
             <div className='border border-t-ckdGreen my-10'></div>
-            <img className='w-[200px]' src="https://media.licdn.com/dms/image/C4E03AQFlKBvhXWKCkQ/profile-displayphoto-shrink_400_400/0/1614708273439?e=1718236800&v=beta&t=O-1xGZ4rqxMW1xe7bt-L5CasnMwiCXzvVKAiRsiUvjs" />
+            <img className='w-[200px]' alt='Dr. Lazar' src="https://media.licdn.com/dms/image/C4E03AQFlKBvhXWKCkQ/profile-displayphoto-shrink_400_400/0/1614708273439?e=1718236800&v=beta&t=O-1xGZ4rqxMW1xe7bt-L5CasnMwiCXzvVKAiRsiUvjs" />
             <p className='text-left text-lg mt-8'>Dr Andrew E. Lazar has a degree in Biomedical Engineering from Boston University.  He worked as a design engineer at General Motors before returning to medical school at Wayne State University in Detroit, MI.  He studied Internal Medicine at the University of Virginia where he was chosen as a chief resident.  Later he studied Nephrology at Case Western Reserve University.  Prior to returning to Cleveland, he practiced Nephrology in Akron, OH.  Please visit our website for more information regarding our practice.</p>
             <div className='border border-t-ckdGreen my-10'></div>
             <h2 className='text-center text-2xl text-ckdGreen font-bold'>Cleveland Kidney Disease Associates, LLC Financial Policy</h2>
