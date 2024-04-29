@@ -13,31 +13,34 @@ const ResearchTrials = () => {
                 </div>
                 <div className='flex flex-col space-y-2'>
                     <p className='text-left text-xl text-ckdGreen font-bold'>Email:</p>
-                    <a  className='text-left text-md  md:text-lg hover:text-ckdGreen' href='mailto:NephrologyHTNResearch@uhhospitals.org' target='_blank' rel='noopener noreferrer'>NephrologyHTNResearch@uhhospitals.org</a>
+                    <a className='text-left text-md  md:text-lg hover:text-ckdGreen' href='mailto:NephrologyHTNResearch@uhhospitals.org' target='_blank' rel='noopener noreferrer'>NephrologyHTNResearch@uhhospitals.org</a>
                 </div>
             </div>
             <div className='border border-t-ckdGreen my-10'></div>
-            <div className='text-left space-y-9'>
-                <div>
+            <div className='text-center md:text-left space-y-9'>
+                {/* <div>
                     <Link to={'/researchTrial/IgA-Nephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
+                </div> */}
+                <div>
+                    <Link to={'/researchTrial/IgA-Nephropathy'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>IgA Nephropothy</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/Lupus-Nephritis'}><p className='text-2xl text-ckdGreen'>Lupus Nephritis</p></Link>
+                    <Link to={'/researchTrial/Lupus-Nephritis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Lupus Nephritis</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/Hypertension'}><p className='text-2xl text-ckdGreen'>Hypertension</p></Link>
+                    <Link to={'/researchTrial/Hypertension'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Hypertension</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/Genetics'}><p className='text-2xl text-ckdGreen'>Genetics</p></Link>
+                    <Link to={'/researchTrial/Genetics'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Genetics</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/Dialysis'}><p className='text-2xl text-ckdGreen'>Dialysis</p></Link>
+                    <Link to={'/researchTrial/Dialysis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Dialysis</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/Chronic-Kidney-Disease'}><p className='text-2xl text-ckdGreen'>Chronic Kidney Disease</p></Link>
+                    <Link to={'/researchTrial/Chronic-Kidney-Disease'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Chronic Kidney Disease</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/ANCA-Vasculitis'}><p className='text-2xl text-ckdGreen'>ANCA Vasculitis</p></Link>
+                    <Link to={'/researchTrial/ANCA-Vasculitis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>ANCA Vasculitis</button></Link>
                 </div>
             </div>
         </div>
