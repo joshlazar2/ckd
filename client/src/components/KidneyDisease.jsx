@@ -4,7 +4,8 @@ const KidneyDisease = () => {
     return (
         <div className='p-8'>
             <h1 className='text-center md:text-left text-3xl text-ckdGreen font-bold'>Kidney Disease</h1>
-            <p className='text-left text-lg mt-8'>
+            <p className='text-left text-2xl mt-10 text-ckdGreen'>Coming Soon!</p>
+            {/* <p className='text-left text-lg mt-8'>
                 I appreciate the  opportunity to serve your medical community as a nephrologist. As a board member of the National Kidney  Foundation (NKF) I see my role as that of health care provider and educator in  the community. The NHANES III data revealed that 1-in-9 adult Americans  suffer with Chronic Kidney Disease, one of the most potent predictors of a  cardiovascular event. Unfortunately, CKD  awareness is poor and thus many are unaware of their disease.
                 <br></br>
                 From the NHANES III  data, it is estimated that over 20 million people in the U.S. suffer from Chronic Kidney  Disease (CKD- that’s 1 of every 9!) and another 20 million are at risk for  kidney disease. The unfortunate reality  of this disease is that 7.6 million patients are in Stage 3 Kidney Disease (GFR 30-59) and 400,000 and 300,000 in Stage 4 and 5  respectively (as of 1998- it’s already grown!).
@@ -66,7 +67,7 @@ const KidneyDisease = () => {
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> */}
         </div>
     );
 }

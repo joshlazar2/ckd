@@ -46,7 +46,7 @@ const Contact = () => {
                         rel='noopener noreferrer'
                         className='hover:text-ckdGreen'
                     >
-                        <p>3619 PARK EAST DR SUITE 110 SOUTH BEACHWOOD, OH 44122-4330 US</p>
+                        <p>3619 Park East Dr. Suite 110, Beachwood, OH 44122-4330 US</p>
                     </a>
                 </div>
             </div>

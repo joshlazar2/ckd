@@ -77,6 +77,14 @@ const Nav = () => {
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
                 <img className='w-[200px] md:w-[250px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
+                    <a
+                        href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+110+SOUTH+BEACHWOOD,+OH+44122-4330+US'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='hover:text-ckdGreen'
+                    >
+                        <p className='text-ckdGreen hover:text-ckdGreenDarker text-xl'>3619 Park East Dr. <br /> Suite 110, Beachwood,<br /> OH 44122-4330 US</p>
+                    </a>
                     <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen hover:text-ckdGreenDarker'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
