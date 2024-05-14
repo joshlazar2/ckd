@@ -77,7 +77,7 @@ const Nav = () => {
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
                 <img className='w-[200px] md:w-[250px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
-                    <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen hover:bg-ckdGreenDarker'>(216) 896-0639</h2></a>
+                    <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen hover:text-ckdGreenDarker'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
                         <Link to={'/riskCalculators'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker rounded-2xl p-3 text-white w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
