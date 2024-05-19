@@ -14,7 +14,7 @@ import RiskCalculator from './components/RiskCalculator';
 
 function App() {
   return (
-    <div className="App bg-slate-100 min-h-screen">
+    <div className="App min-h-screen">
       <Nav />
       <div className='md:px-20'>
         <Routes>

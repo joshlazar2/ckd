@@ -74,7 +74,7 @@ const Nav = () => {
 
     return (
         <div className=''>
-            <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8'>
+            <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8 space-y-4 md:space-y-0'>
                 <img className='w-[200px] md:w-[250px]' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <a
@@ -83,7 +83,7 @@ const Nav = () => {
                         rel='noopener noreferrer'
                         className='hover:text-ckdGreen'
                     >
-                        <p className='text-ckdGreen hover:text-ckdGreenDarker text-xl'>3619 Park East Dr. <br /> Suite 110, Beachwood,<br /> OH 44122-4330 US</p>
+                        <p className='text-ckdGreen hover:text-ckdGreenDarker text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
                     </a>
                     <a href="tel:+12168960639"><h2 className='text-2xl text-ckdGreen hover:text-ckdGreenDarker'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
