@@ -75,7 +75,7 @@ const Nav = () => {
     return (
         <div className='bg-ckdGreen'>
             <div className='flex flex-col justify-center items-center md:flex-row md:items-center md:justify-between p-8 space-y-4 md:space-y-0'>
-                <img className='w-[200px] md:w-[250px] bg-white rounded-lg' src={logoPath} alt="Logo" />
+                <img className='w-[200px] md:w-[250px] bg-white rounded-xl' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <a
                         href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+110+SOUTH+BEACHWOOD,+OH+44122-4330+US'
