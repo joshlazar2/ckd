@@ -16,4 +16,6 @@ export const trials = {
     "Dialysis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "Chronic-Kidney-Disease": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "ANCA-Vasculitis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
+    "Diabetes": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
+    "Other": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
 }

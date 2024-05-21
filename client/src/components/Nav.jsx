@@ -92,62 +92,62 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-slate-200 px-8 py-2'>
+            <div className='bg-ckdGreen px-8 py-2'>
                 {/* Hamburger Icon for Small Screens */}
                 <div className="md:hidden flex items-center justify-center space-x-4 md:space-x-0">
                     <button onClick={() => setIsOpen(!isOpen)} >
-                        <IoMenu className='text-3xl text-ckdGreen' />
+                        <IoMenu className='text-3xl text-white' />
                     </button>
                     <div className="flex items-center space-x-2">
-                        <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname).icon}</p>
-                        <p className='text-2xl text-ckdGreen'>{getFriendlyName(pathname).name}</p>
+                        <p className='text-2xl text-white'>{getFriendlyName(pathname).icon}</p>
+                        <p className='text-2xl text-white'>{getFriendlyName(pathname).name}</p>
                     </div>
                 </div>
                 {/* Navigation Links */}
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0 mt-4 md:mt-0`}>
-                    <Link to={'/'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <AiFillHome />
                             <p>Home</p>
                         </div>
                     </Link>
-                    <Link to={'/about'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/about'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaUserDoctor />
                             <p>About The Practice</p>
                         </div>
                     </Link>
-                    <Link to={'/geneLookup'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/geneLookup'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaDna />
                             <p>Gene Lookup</p>
                         </div>
                     </Link>
-                    <Link to={'/researchTrials'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/researchTrials'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiArchiveResearch />
                             <p>Research Trials</p>
                         </div>
                     </Link>
-                    <Link to={'/kidneyDisease'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/kidneyDisease'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiKidneys />
                             <p>Kidney Disease</p>
                         </div>
                     </Link>
-                    <Link to={'/riskCalculators'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/riskCalculators'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaCalculator />
                             <p>Risk Calculators</p>
                         </div>
                     </Link>
-                    <Link to={'/forms'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/forms'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaClipboardList />
                             <p>Forms</p>
                         </div>
                     </Link>
-                    <Link to={'/contact'} className='text-ckdGreen text-xl' onClick={closeMenu}>
+                    <Link to={'/contact'} className='text-white text-xl' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaPhone />
                             <p>Contact</p>

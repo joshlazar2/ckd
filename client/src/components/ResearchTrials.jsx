@@ -45,10 +45,10 @@ const ResearchTrials = () => {
                     <Link to={'/researchTrial/ANCA-Vasculitis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>ANCA Vasculitis</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/ANCA-Vasculitis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Diabetes</button></Link>
+                    <Link to={'/researchTrial/Diabetes'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Diabetes</button></Link>
                 </div>
                 <div>
-                    <Link to={'/researchTrial/ANCA-Vasculitis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Other</button></Link>
+                    <Link to={'/researchTrial/Other'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Other</button></Link>
                 </div>
             </div>
         </div>
