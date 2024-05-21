@@ -82,9 +82,9 @@ const Nav = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        <p className='text-white hover:text-slate-300 text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
+                        <p className='text-white hover:text-black text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
                     </a>
-                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:text-slate-300'>(216) 896-0639</h2></a>
+                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:text-black'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
                         <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
