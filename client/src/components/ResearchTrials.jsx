@@ -22,7 +22,7 @@ const ResearchTrials = () => {
                     <Link to={'/researchTrial/IgA-Nephropathy'}><p className='text-2xl text-ckdGreen'>IgA Nephropathy</p></Link>
                 </div> */}
                 <div>
-                    <Link to={'/researchTrial/IgA-Nephropathy'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>IgA Nephropothy</button></Link>
+                    <Link to={'/researchTrial/IgA-Nephropathy'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>IgA Nephropathy</button></Link>
                 </div>
                 <div>
                     <Link to={'/researchTrial/Lupus-Nephritis'}><button className='bg-ckdGreen hover:bg-ckdGreenDarker text-2xl rounded-2xl p-3 text-white w-[270px]'>Lupus Nephritis</button></Link>
