@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { geneData } from '../assets/data/data';
 import Select from 'react-select';
+import { FaDna } from "react-icons/fa6";
 
 const GeneLookup = () => {
     const [selectedGene, setSelectedGene] = useState(null);

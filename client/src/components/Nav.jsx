@@ -86,9 +86,9 @@ const Nav = () => {
                     </a>
                     <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:scale-105'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
-                        <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
-                        <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
-                        <Link to={'/researchTrials'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Research Trials</button></Link>
+                        <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
+                        <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
+                        <Link to={'/researchTrials'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-xl p-3 text-black w-[105px] md:w-[140px]'>Research Trials</button></Link>
                     </div>
                 </div>
             </div>
