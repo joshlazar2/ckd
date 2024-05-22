@@ -82,9 +82,9 @@ const Nav = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        <p className='text-white hover:text-black text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
+                        <p className='text-white hover:scale-105 text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
                     </a>
-                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:text-black'>(216) 896-0639</h2></a>
+                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:scale-105'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
                         <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
@@ -105,49 +105,49 @@ const Nav = () => {
                 </div>
                 {/* Navigation Links */}
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:flex-row md:justify-between md:space-x-4 flex-col space-y-4 md:space-y-0 mt-4 md:mt-0`}>
-                    <Link to={'/'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <AiFillHome />
                             <p>Home</p>
                         </div>
                     </Link>
-                    <Link to={'/about'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/about'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaUserDoctor />
                             <p>About The Practice</p>
                         </div>
                     </Link>
-                    <Link to={'/geneLookup'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/geneLookup'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaDna />
                             <p>Gene Lookup</p>
                         </div>
                     </Link>
-                    <Link to={'/researchTrials'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/researchTrials'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiArchiveResearch />
                             <p>Research Trials</p>
                         </div>
                     </Link>
-                    <Link to={'/kidneyDisease'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/kidneyDisease'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <GiKidneys />
                             <p>Kidney Disease</p>
                         </div>
                     </Link>
-                    <Link to={'/riskCalculators'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/riskCalculators'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaCalculator />
                             <p>Risk Calculators</p>
                         </div>
                     </Link>
-                    <Link to={'/forms'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/forms'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaClipboardList />
                             <p>Forms</p>
                         </div>
                     </Link>
-                    <Link to={'/contact'} className='text-white text-xl' onClick={closeMenu}>
+                    <Link to={'/contact'} className='text-white text-xl md:hover:scale-105' onClick={closeMenu}>
                         <div className='flex items-center space-x-2'>
                             <FaPhone />
                             <p>Contact</p>
