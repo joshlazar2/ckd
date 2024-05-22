@@ -81,15 +81,14 @@ const Nav = () => {
                         href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+110+SOUTH+BEACHWOOD,+OH+44122-4330+US'
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='focus:outline-none focus:ring-0'
                     >
                         <p className='text-white hover:scale-105 text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
                     </a>
-                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:scale-105 focus:outline-none focus:ring-0'>(216) 896-0639</h2></a>
+                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:scale-105'>(216) 896-0639</h2></a>
                     <div className='flex space-x-4'>
-                        <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px] focus:outline-none focus:ring-0'>Gene Lookup</button></Link>
-                        <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px] focus:outline-none focus:ring-0'>Risk Calculators</button></Link>
-                        <Link to={'/researchTrials'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px] focus:outline-none focus:ring-0'>Research Trials</button></Link>
+                        <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
+                        <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
+                        <Link to={'/researchTrials'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-2xl p-3 text-black w-[105px] md:w-[140px]'>Research Trials</button></Link>
                     </div>
                 </div>
             </div>
