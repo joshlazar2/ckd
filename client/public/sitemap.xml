@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://clevelandkidney.com/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/about</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/kidneyDisease</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/contact</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/forms</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/riskCalculators</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/geneLookup</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clevelandkidney.com/researchTrials</loc>
+        <priority>0.8</priority>
+    </url>
+</urlset>
