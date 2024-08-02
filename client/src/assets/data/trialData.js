@@ -9,8 +9,8 @@
 // }
 
 export const trials = {
-    "IgA-Nephropathy": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
-    "Lupus-Nephritis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
+    "IgA-Nephropathy": 'https://drive.google.com/file/d/1wjNMB5EgRLiIWdcW8toihv8kyUf-9Saa/preview',
+    "Lupus-Nephritis": 'https://drive.google.com/file/d/12NxTdKAw0jeM_qySKUd_n87XCQl_D-EP/preview',
     "Hypertension": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "Genetics": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "Dialysis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
