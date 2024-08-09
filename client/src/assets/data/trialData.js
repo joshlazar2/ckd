@@ -12,7 +12,7 @@ export const trials = {
     "IgA-Nephropathy": 'https://drive.google.com/file/d/1wjNMB5EgRLiIWdcW8toihv8kyUf-9Saa/preview',
     "Lupus-Nephritis": 'https://drive.google.com/file/d/12NxTdKAw0jeM_qySKUd_n87XCQl_D-EP/preview',
     "Hypertension": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
-    "Genetics": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
+    "Genetics": 'https://drive.google.com/file/d/1KEuKmYAZRMm3QQiMMnb7yOcQzyrwYbk9/preview',
     "Dialysis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "Chronic-Kidney-Disease": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
     "ANCA-Vasculitis": 'https://docs.google.com/document/d/1md_LoMYoE3zlFpWyoDcx50HSMuAhy_0C0aVUTvTKGMI/preview',
