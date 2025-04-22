@@ -78,13 +78,13 @@ const Nav = () => {
                 <img className='w-[200px] md:w-[250px] bg-white rounded-xl' src={logoPath} alt="Logo" />
                 <div className='space-y-4 flex flex-col justify-center'>
                     <a
-                        href='https://www.google.com/maps/search/?api=1&query=3619+PARK+EAST+DR+SUITE+110+SOUTH+BEACHWOOD,+OH+44122-4330+US'
+                        href='https://www.google.com/maps/place/UH+Minoff+Health+Center+at+Chagrin+Highlands/@41.4534271,-81.4917011,17z/data=!3m2!4b1!5s0x883102c8d96219f7:0xa151df95ae2dce23!4m6!3m5!1s0x883102c8da3a0b9d:0x3dfb2e750dff354f!8m2!3d41.4534231!4d-81.4891262!16s%2Fg%2F1tf9z1qv?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
-                        <p className='text-white hover:scale-105 text-xl'>3619 Park East Dr. Suite 110, <br /> Beachwood, OH, 44122, US</p>
+                        <p className='text-white hover:scale-105 text-xl'>UH Minoff Health Center at Chagrin Highlands <br /> 3909 Orange Pl, Orange, OH 44122</p>
                     </a>
-                    <a href="tel:+12168960639"><h2 className='text-2xl text-white hover:scale-105'>(216) 896-0639</h2></a>
+                    <a href="tel:+12168441037"><h2 className='text-2xl text-white hover:scale-105'>(216) 844-1037</h2></a>
                     <div className='flex space-x-4'>
                         <Link to={'/geneLookup'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-xl p-3 text-black w-[105px] md:w-[140px]'>Gene Lookup</button></Link>
                         <Link to={'/riskCalculators'}><button className='bg-white hover:bg-ckdGreen hover:text-white rounded-xl p-3 text-black w-[105px] md:w-[140px]'>Risk Calculators</button></Link>
